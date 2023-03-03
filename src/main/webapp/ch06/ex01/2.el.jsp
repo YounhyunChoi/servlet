@@ -3,4 +3,9 @@ String: ${"hello"} <br>
 int: ${10} <br>
 double: ${10.0} <br>
 boolean: ${true} <br>
-null: ${null}
+null: ${null} <br>
+
+\${5 * 2} : ${5 * 2} <br>
+${5 > 2 } <br>
+${ 5 > 2 ? 5 : 2 } <br>
+${ 5 > 2 || 5 < 2 }
